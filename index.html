@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Öffentliche Informationen zur privaten Google-Drive-OAuth-Verbindung von espresso.signal.">
+  <title>espresso.signal · Google-Drive-Verbindung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="espresso.signal – Startseite">espresso<span class="dot">.</span>signal</a>
+      <nav aria-label="Hauptnavigation"><a aria-current="page" href="./">Startseite</a><a href="privacy.html">Datenschutz</a></nav>
+    </header>
+    <main id="main">
+      <p class="eyebrow">OAuth-Anwendungsinformationen</p>
+      <h1>Google Drive für den privaten Projekt-Datenaustausch</h1>
+      <p class="intro">espresso.signal verwendet <a href="https://rclone.org/" rel="noopener noreferrer">rclone</a>, um nach ausdrücklicher Google-Anmeldung Dateien zwischen einem privaten Raspberry Pi und einem vom Betreiber autorisierten Google-Drive-Konto auszutauschen.</p>
+      <div class="note"><strong>Keine öffentliche Anmeldung.</strong> Diese Seite ist eine Informationsseite für eine privat betriebene OAuth-Anwendung. Sie bietet selbst weder einen Google-Login noch einen Datei-Upload an.</div>
+      <div class="tiles">
+        <section class="tile">
+          <h2>Zweck</h2>
+          <p>Übertragung und Ablage projektbezogener Dateien, etwa technischer Diagnoseprotokolle und Prüfergebnisse. Die konkret ausgeführten rclone-Befehle bestimmen, welche Dateien verarbeitet werden.</p>
+        </section>
+        <section class="tile">
+          <h2>Google-Zugriff</h2>
+          <p>Der Zugriff wird vom Kontoinhaber über Googles OAuth-Verfahren autorisiert. Je nach erteilten Berechtigungen kann rclone Dateien auf Google Drive lesen, schreiben und löschen.</p>
+        </section>
+      </div>
+      <section class="section">
+        <h2>Umgang mit Daten</h2>
+        <p>Die Anwendung ist für den Eigengebrauch vorgesehen. Diese Informationsseite enthält keine Projektdateien, OAuth-Tokens, Geräteprotokolle oder Zugangsdaten. Details zur Datenverarbeitung und zu den beteiligten Diensten stehen in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
+      </section>
+      <section class="section">
+        <h2>Kontakt</h2>
+        <p>Fragen zur OAuth-Verbindung: <a href="mailto:chrommaster@gmail.com">chrommaster@gmail.com</a></p>
+      </section>
+    </main>
+    <footer><span>espresso.signal · OAuth-Informationsseite</span><a href="privacy.html">Datenschutz</a></footer>
+  </div>
+</body>
+</html>
